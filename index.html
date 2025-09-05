@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shuaib Hassan | Software Engineer</title>
+  
+  <link rel="icon" type="image/png" href="image/faviocon.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div id="loader-overlay">
+    <div id="three-container"></div>
+    <div class="intro-content">
+      <h1 id="typing-text"></h1>
+    </div>
+  </div>
+
+  <div id="main-content" class="hidden">
+    <header class="navbar">
+      <a href="#" class="logo" data-page="page-about">Shuaib Hassan</a>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#" class="nav-link active-link" data-page="page-about">About</a></li>
+          <li><a href="#" class="nav-link" data-page="page-projects">Projects</a></li>
+          <li><a href="#" class="nav-link" data-page="page-contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <div class="side-socials">
+        <a href="https://github.com/shuaib-hassan" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shuaib-hassan/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/254742801667" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <main class="content-wrapper">
+      <section id="page-about" class="page-content active">
+        <div class="home-hero">
+          <h1 class="fade-in-up" style="animation-delay: 100ms;">Hello, I'm <span class="highlight">Shuaib Hassan.</span></h1>
+          <h2 class="subtitle fade-in-up" style="animation-delay: 200ms;">I build things for the web.</h2>
+          <p class="description fade-in-up" style="animation-delay: 300ms;">
+            As a dedicated Software Engineering student from Moringa School, I specialize in developing robust full-stack web applications from concept to deployment.
+          </p>
+          <a href="#" class="btn fade-in-up" data-page="page-projects" style="animation-delay: 400ms;">Check out my projects!</a>
+        </div>
+        
+        <div class="about-details">
+          <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+          <div class="about-grid">
+              <div class="about-text">
+                  <p>
+                      My passion lies in leveraging technology to solve real-world challenges, focusing on creating digital solutions that are not only functional and responsive but also provide an intuitive user experience. I thrive in collaborative environments and am committed to continuous learning and innovation in the ever-evolving tech landscape.
+                  </p>
+                  <ul class="skills-list">
+                      <li>JavaScript (ES6+)</li>
+                      <li>React</li>
+                      <li>Python</li>
+                      <li>Flask</li>
+                      <li>HTML5 & CSS3</li>
+                      <li>SQL</li>
+                  </ul>
+              </div>
+              <div class="about-image">
+                  <div class="image-placeholder">
+                      <img src="image/me.jpg" alt="Shuaib Hassan">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-projects" class="page-content">
+        <h1 class="section-title"><span class="section-number">02.</span> My Projects</h1>
+        <div class="project-list">
+          <div class="project-card">
+              <div class="project-top">
+                  <h3 class="project-title">Kappy Entertainment Store</h3>
+                  <div class="project-links"><a href="https://github.com/shuaib-hassan/kappy-entertainment-online-store" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></div>
+              </div>
+              <p class="project-description">A single-page web app for official merchandise and event tickets, with simulated M-Pesa payments.</p>
+              <ul class="project-tech"><li>TypeScript</li><li>Tailwind CSS</li><li>Vite</li><li>HTML</li></ul>
+          </div>
+          <div class="project-card">
+              <div class="project-top">
+                  <h3 class="project-title">Prom Night 2025</h3>
+                  <div class="project-links"><a href="https://github.com/shuaib-hassan/prom-night-app" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></div>
+              </div>
+              <p class="project-description">A modern web app for managing prom tickets and payments with M-PESA integration.</p>
+              <ul class="project-tech"><li>TypeScript</li><li>Node.js</li><li>Express</li><li>M-PESA API</li></ul>
+          </div>
+          <div class="project-card">
+              <div class="project-top">
+                  <h3 class="project-title">Farmart</h3>
+                  <div class="project-links"><a href="https://github.com/shuaib-hassan/farmart" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></div>
+              </div>
+            <p class="project-description">An innovative e-commerce platform connecting farmers directly with consumers to sell farm animals.</p>
+            <ul class="project-tech"><li>React</li><li>Flask</li><li>SQLAlchemy</li></ul>
+          </div>
+          <div class="project-card">
+              <div class="project-top">
+                  <h3 class="project-title">Recipe Book App</h3>
+                  <div class="project-links"><a href="https://github.com/shuaib-hassan/recipe-book" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></div>
+              </div>
+              <p class="project-description">A dynamic web application allowing users to create, share, and manage their favorite culinary recipes.</p>
+            <ul class="project-tech"><li>React</li><li>Flask</li><li>REST API</li></ul>
+          </div>
+          <div class="project-card">
+              <div class="project-top">
+                  <h3 class="project-title">Personal Finance Tracker</h3>
+                  <div class="project-links"><a href="https://github.com/shuaib-hassan/finance-tracker" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></div>
+              </div>
+            <p class="project-description">A practical command-line tool developed in Python for efficient tracking of personal expenses and budget management.</p>
+            <ul class="project-tech"><li>Python</li><li>CLI</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-contact" class="page-content">
+        <h1 class="section-title"><span class="section-number">03.</span> Get In Touch</h1>
+        <div class="contact-form">
+          <p>I'm currently open to new opportunities and collaborations. My inbox is always open, whether you have a question or just want to say hi, I'll get back to you!</p>
+          <form action="https://formspree.io/f/xovnjjvn" method="POST">
+            <div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div>
+            <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
+            <div class="form-group"><textarea name="message" rows="5" placeholder="Your Message" required></textarea></div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed & Built by Shuaib Hassan</p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // --- 3D Intro Logic ---
+      const overlay = document.getElementById('loader-overlay');
+      const mainContent = document.getElementById('main-content');
+      const typingTextEl = document.getElementById('typing-text');
+      const textToType = "Hi, I'm Shuaib, a software engineer. Welcome to my world.";
+      let typeIndex = 0;
+
+      // --- Three.js Scene Setup ---
+      let scene, camera, renderer, cube;
+      const threeContainer = document.getElementById('three-container');
+
+      function initThree() {
+        if (!threeContainer) return;
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(75, threeContainer.clientWidth / threeContainer.clientHeight, 0.1, 1000);
+        renderer = new THREE.WebGLRenderer({ alpha: true });
+        renderer.setSize(threeContainer.clientWidth, threeContainer.clientHeight);
+        threeContainer.appendChild(renderer.domElement);
+
+        const loader = new THREE.TextureLoader();
+        loader.load('image/me.jpg', function(texture) {
+            const geometry = new THREE.BoxGeometry(2.5, 2.5, 2.5);
+            const material = new THREE.MeshStandardMaterial({ map: texture });
+            cube = new THREE.Mesh(geometry, material);
+            scene.add(cube);
+        });
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
+        scene.add(ambientLight);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+        directionalLight.position.set(5, 10, 7.5);
+        scene.add(directionalLight);
+        camera.position.z = 5;
+        animate();
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+        if (cube) {
+          cube.rotation.x += 0.005;
+          cube.rotation.y += 0.005;
+        }
+        renderer.render(scene, camera);
+      }
+      
+      function enterSite() {
+        overlay.classList.add('fade-out');
+        overlay.addEventListener('transitionend', () => {
+          overlay.style.display = 'none';
+          mainContent.classList.remove('hidden');
+          mainContent.classList.add('fade-in-up');
+        });
+      }
+
+      function typeWriter() {
+        if (typeIndex < textToType.length) {
+          typingTextEl.innerHTML += textToType.charAt(typeIndex);
+          typeIndex++;
+          setTimeout(typeWriter, 60);
+        } else {
+          setTimeout(enterSite, 1200);
+        }
+      }
+
+      // Initialize the intro
+      initThree();
+      typeWriter();
+
+      // --- Portfolio Page Navigation Logic ---
+      const navLinks = document.querySelectorAll('.nav-link, .logo, .btn');
+      const pages = document.querySelectorAll('.page-content');
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.nav-links');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('data-page');
+          if (!targetId) return;
+
+          pages.forEach(page => page.classList.remove('active'));
+          document.getElementById(targetId)?.classList.add('active');
+
+          document.querySelectorAll('.nav-link').forEach(nav => {
+            nav.classList.remove('active-link');
+            if (nav.getAttribute('data-page') === targetId) {
+                nav.classList.add('active-link');
+            }
+          });
+
+          if (navMenu.classList.contains('active')) {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+          }
+        });
+      });
+
+      hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
